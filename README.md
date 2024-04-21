@@ -42,3 +42,8 @@ Po wykonaniu operacji status zostaje zaktualizowany
 Program działa z bazą SQL, poniżej jej schemat
 ![image](https://github.com/PiotrPecuch/LabPBAStudia/assets/95655521/7ee565c9-a68e-40f5-8abc-3d3e03e09cd0)
 
+
+Do poprawnego działania programu należy zdefiniować scięzkę do pliku properties zmieniając fragment kodu w klasie DbConnector
+
+FileReader reader = new FileReader("C:\\Users\\Piotr\\Desktop\\PABLab\\PABLab\\src\\main\\resources\\Properties.txt");
+
