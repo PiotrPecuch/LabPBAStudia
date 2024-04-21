@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="96.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pablab.Controller.WyszukajUzytkownika">
+   <children>
+      <Label layoutX="13.0" layoutY="64.0" text="Wyszukaj po imieniu i nazwisku" AnchorPane.bottomAnchor="72.0" AnchorPane.leftAnchor="14.0" />
+      <TextField fx:id="wyszukajUzytkownikaImie" layoutX="14.0" layoutY="106.0" prefHeight="25.0" prefWidth="167.0" promptText="Imie" AnchorPane.bottomAnchor="22.0" AnchorPane.leftAnchor="14.0" />
+      <TextField fx:id="wyszukajUzytkownikaNazwisko" layoutX="190.0" layoutY="106.0" prefHeight="25.0" prefWidth="161.0" promptText="Nazwisko" AnchorPane.bottomAnchor="22.0" AnchorPane.leftAnchor="190.0" />
+      <Label layoutX="14.0" layoutY="89.0" text="Imie" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="14.0" />
+      <Label layoutX="190.0" layoutY="89.0" text="Nazwisko" AnchorPane.bottomAnchor="47.0" AnchorPane.rightAnchor="141.0" />
+   </children>
+</AnchorPane>
